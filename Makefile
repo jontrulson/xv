@@ -185,17 +185,17 @@ ZLIBLIB = -L$(ZLIBDIR)/lib -lz
 ### if, for whatever reason, you're unable to get the JasPer JPEG-2000 library
 ### to compile on your machine, *COMMENT OUT* the following lines
 ###
-JP2K    = -DDOJP2K
+#JP2K    = -DDOJP2K
 ###
-JP2KDIR = /usr
+#JP2KDIR = /usr
 #JP2KDIR = /usr/local/lib
 #JP2KDIR = ../../jasper
 ###
 #JP2KINC = -I/usr/local/include
-JP2KINC = -I$(JP2KDIR)
+#JP2KINC = -I$(JP2KDIR)
 ###
 #JP2KLIB = $(JP2KDIR)/libjasper.a
-JP2KLIB = -L$(JP2KDIR) -ljasper
+#JP2KLIB = -L$(JP2KDIR) -ljasper
 
 
 ### if, for whatever reason, you don't want to build G3 facsimile support,
