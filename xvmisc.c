@@ -519,7 +519,6 @@ void Warning()
   else {
     st = GetISTR(ISTR_INFO);
     OpenAlert(st);
-    sleep(3);
     CloseAlert();
   }
 }
